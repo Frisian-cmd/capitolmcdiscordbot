@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\commands"
+    "\\commands",
+    "\\counters"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\commands\\leave.js",
   "PreviewInSolutionExplorer": false
 }

@@ -94,6 +94,14 @@ client.on('message', message =>{
 		client.commands.get('play').execute(message, args);
 }	else if(command == 'leave'){
 		client.commands.get('leave').execute(message, args);
+}	else if(command == 'stop'){
+		client.commands.get('leave').execute(message, args);
+}	else if(command == 'disconnect'){
+		client.commands.get('leave').execute(message, args);
+}	else if(command == 'fuckoff'){
+		client.commands.get('leave').execute(message, args);
+}	else if(command == 'bye'){
+		client.commands.get('leave').execute(message, args);
 }
 });
 
