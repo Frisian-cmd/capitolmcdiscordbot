@@ -90,6 +90,10 @@ client.on('message', message =>{
 		client.commands.get('help').execute(message, args, Discord);
 }	else if(command == 'command'){
 		client.commands.get('help').execute(message, args, Discord);
+}	else if(command == 'play'){
+		client.commands.get('play').execute(message, args);
+}	else if(command == 'leave'){
+		client.commands.get('leave').execute(message, args);
 }
 });
 
