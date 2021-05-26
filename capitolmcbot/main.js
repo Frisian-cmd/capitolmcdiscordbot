@@ -1,11 +1,8 @@
 ﻿const Discord = require('discord.js');
-
 const botConfig = require("./botconfig.json");
-
 const client = new Discord.Client();
-
 const fs = require('fs');
-
+const memberCounter = require('./counters/member_counter');
 
 
 client.commands = new Discord.Collection();
@@ -17,9 +14,10 @@ for(const file of commandFiles){
 	client.commands.set(command.name, command);
 	}
 
-client.once('ready', () => {
+client.on('ready', () => {
 	console.log('Ohayo senpai');
 	client.user.setActivity("LegendKIngdoms Minecraft server!", {type: "Playing"});
+	memberCounter(client);
 });
 
 client.on('guildMemberAdd', guildMember => {
