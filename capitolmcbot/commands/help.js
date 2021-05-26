@@ -11,6 +11,8 @@ module.exports = {
 			{name: '!map/!dynmap', value: "stuurt de dynmap van LegendKingdoms minecraft wereld"},
 			{name: '!vote', value: "stuurt de vote sites"},
 			{name: '!web/website/site', value: "stuurt de website van LegendKingdoms"},
+			{name: '!play', value: "voeg link of naam van liedje erachter en bot speelt dit af"},
+			{name: '!leave/disconnect/bye/fuckoff', value: "Bot stopt met muziek spelen en verlaat het spraakkanaal"},
 			{name: '!help', value: "stuurt dit bericht"},
 		)
 		.setFooter('Bot development by Frisian™#7989');
