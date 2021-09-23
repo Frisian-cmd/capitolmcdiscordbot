@@ -48,38 +48,38 @@ client.on('message', message =>{
 		client.commands.get('website').execute(message, args);
 }	else if(command === 'website'){
 		client.commands.get('website').execute(message, args);
-}	else if(command === 'regels_embed'){
-		client.commands.get('Rules').execute(message, args, Discord);
-}	else if(command == 'clear'){
-		if(message.member.roles.cache.has('817144461687521281')){
-			client.commands.get('clear').execute(message, args);
-		}else{
-			return message.reply(' het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het verwijderen van berichten zit aan gekoppeld. Gegroet.');
-		}
-}	else if(command == 'ban'){
-		if(message.member.roles.cache.has('817144461687521281')){
-			client.commands.get('ban').execute(message, args);
-		}else{
+//}	else if(command === 'regels_embed'){
+//		client.commands.get('Rules').execute(message, args, Discord);
+//}	else if(command == 'clear'){
+//		if(message.member.roles.cache.has('817144461687521281')){
+//			client.commands.get('clear').execute(message, args);
+//		}else{
+	//		return message.reply(' het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het verwijderen van berichten zit aan gekoppeld. Gegroet.');
+//		}
+//}	else if(command == 'ban'){
+//		if(message.member.roles.cache.has('817144461687521281')){
+//			client.commands.get('ban').execute(message, args);
+//		}else{
 			return message.reply('het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het verbannen van gebruikers zit aan gekoppeld. Gegroet.');
+//		}
+//}	else if(command =='kick'){
+//		if(message.member.roles.cache.has('817144461687521281')){
+//			client.commands.get('kick').execute(message, args);
+//		}else{
+//			return message.reply('het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het kicken van gebruikers zit aan gekoppeld. Gegroet.');
 		}
-}	else if(command =='kick'){
-		if(message.member.roles.cache.has('817144461687521281')){
-			client.commands.get('kick').execute(message, args);
-		}else{
-			return message.reply('het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het kicken van gebruikers zit aan gekoppeld. Gegroet.');
-		}
-}	else if(command == 'mute'){
-		if(message.member.roles.cache.has('817144461687521281')){
-		client.commands.get('mute').execute(message, args);
-		}else{
-			return message.reply('jij mag dit niet gebruiken. ik ga het tegen mama zeggen :angry:');
-		}
-}	else if(command == 'unmute'){
-		if(message.member.roles.cache.has('817144461687521281')){
-		client.commands.get('unmute').execute(message, args);
-		}else{
-			return message.reply('jij mag dit niet gebruiken! *huilgeluiden* IK GA HET NU TEGEN MAMMIE EN PAPPIE ZEGGUN!');
-		}
+//}	else if(command == 'mute'){
+//		if(message.member.roles.cache.has('817144461687521281')){
+//		client.commands.get('mute').execute(message, args);
+//		}else{
+//			return message.reply('jij mag dit niet gebruiken. ik ga het tegen mama zeggen :angry:');
+//		}
+//}	else if(command == 'unmute'){
+//		if(message.member.roles.cache.has('817144461687521281')){
+//		client.commands.get('unmute').execute(message, args);
+//		}else{
+//		return message.reply('jij mag dit niet gebruiken! *huilgeluiden* IK GA HET NU TEGEN MAMMIE EN PAPPIE ZEGGUN!');
+	//	}
 }	else if(command == 'map'){
 		client.commands.get('map').execute(message, args, Discord);
 }	else if(command == 'dynmap'){
