@@ -60,7 +60,7 @@ client.on('message', message =>{
 //		if(message.member.roles.cache.has('817144461687521281')){
 //			client.commands.get('ban').execute(message, args);
 //		}else{
-			return message.reply('het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het verbannen van gebruikers zit aan gekoppeld. Gegroet.');
+//			return message.reply('het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het verbannen van gebruikers zit aan gekoppeld. Gegroet.');
 //		}
 //}	else if(command =='kick'){
 //		if(message.member.roles.cache.has('817144461687521281')){
@@ -84,10 +84,10 @@ client.on('message', message =>{
 		client.commands.get('map').execute(message, args, Discord);
 }	else if(command == 'dynmap'){
 		client.commands.get('dynmap').execute(message, args, Discord);
-}	else if(command == 'image'){
-		client.commands.get('image').execute(client, message, args);
-}	else if(command == 'afbeelding'){
-		client.commands.get('image').execute(client, message, args);
+//}	else if(command == 'image'){
+	//	client.commands.get('image').execute(client, message, args);
+//}	else if(command == 'afbeelding'){
+	//	client.commands.get('image').execute(client, message, args);
 //}	else if(command == 'vote'){
 	//	client.commands.get('vote').execute(message, args, Discord);
 }	else if(command == 'help'){
