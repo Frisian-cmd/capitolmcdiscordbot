@@ -84,7 +84,7 @@ client.on('message', message =>{
 		client.commands.get('map').execute(message, args, Discord);
 }	else if(command == 'dynmap'){
 		client.commands.get('dynmap').execute(message, args, Discord);
-}//	else if(command == 'vote'){
+//}	else if(command == 'vote'){
 	//	client.commands.get('vote').execute(message, args, Discord);
 }	else if(command == 'help'){
 		client.commands.get('help').execute(message, args, Discord);
