@@ -16,7 +16,7 @@ for(const file of commandFiles){
 
 client.on('ready', () => {
 	console.log('Ohayo senpai');
-	client.user.setActivity("LegendKIngdoms Minecraft server!", {type: "Playing"});
+	client.user.setActivity('LegendKIngdoms Minecraft server!', { type: "PLAYING" }).catch(console.error)
 	memberCounter(client);
 });
 
