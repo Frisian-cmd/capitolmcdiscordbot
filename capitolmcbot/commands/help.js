@@ -12,6 +12,7 @@ module.exports = {
 			{name: '!map', value: "stuurt een afbeelding van de map van Legendskingdom wereld"},
 			//{name: '!vote', value: "stuurt de vote sites"},
 			{name: '!web/website/site', value: "stuurt de website van LegendKingdoms"},
+			{name: '!image/afbeelding', value: "stuurt een afbeelding op basis van je zoekterm achter het commando"},
 		//	{name: '!play', value: "voeg link of naam van liedje erachter en bot speelt dit af"},
 			//{name: '!leave/disconnect/bye/fuckoff', value: "Bot stopt met muziek spelen en verlaat het spraakkanaal"},
 			{name: '!help', value: "stuurt dit bericht"},

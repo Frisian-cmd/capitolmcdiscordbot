@@ -84,6 +84,10 @@ client.on('message', message =>{
 		client.commands.get('map').execute(message, args, Discord);
 }	else if(command == 'dynmap'){
 		client.commands.get('dynmap').execute(message, args, Discord);
+}	else if(command == 'image'){
+		client.commands.get('image').execute(client, message, args);
+}	else if(command == 'afbeelding'){
+		client.commands.get('image').execute(client, message, args);
 //}	else if(command == 'vote'){
 	//	client.commands.get('vote').execute(message, args, Discord);
 }	else if(command == 'help'){
