@@ -90,19 +90,19 @@ client.on('message', message =>{
 		client.commands.get('help').execute(message, args, Discord);
 }	else if(command == 'command'){
 		client.commands.get('help').execute(message, args, Discord);
-}	else if(command == 'play'){
-		client.commands.get('play').execute(message, args);
-}	else if(command == 'leave'){
-		client.commands.get('leave').execute(message, args);
-}	else if(command == 'stop'){
-		client.commands.get('leave').execute(message, args);
-}	else if(command == 'disconnect'){
-		client.commands.get('leave').execute(message, args);
-}	else if(command == 'fuckoff'){
-		client.commands.get('leave').execute(message, args);
-}	else if(command == 'bye'){
-		client.commands.get('leave').execute(message, args);
-}
+}	//else if(command == 'play'){
+//		client.commands.get('play').execute(message, args);
+//}//	else if(command == 'leave'){
+	//	client.commands.get('leave').execute(message, args);
+//}//	else if(command == 'stop'){
+	//	client.commands.get('leave').execute(message, args);
+//}//	else if(command == 'disconnect'){
+//		client.commands.get('leave').execute(message, args);
+//}//	else if(command == 'fuckoff'){
+	//	client.commands.get('leave').execute(message, args);
+//}	//else if(command == 'bye'){
+		//client.commands.get('leave').execute(message, args);
+//}
 });
 
 client.login(process.env.token);
