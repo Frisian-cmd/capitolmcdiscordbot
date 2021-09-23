@@ -67,7 +67,7 @@ client.on('message', message =>{
 //			client.commands.get('kick').execute(message, args);
 //		}else{
 //			return message.reply('het spijt me. U heeft op dit moment niet toegang tot het gebruiken van het commando waar het kicken van gebruikers zit aan gekoppeld. Gegroet.');
-		}
+	//	}
 //}	else if(command == 'mute'){
 //		if(message.member.roles.cache.has('817144461687521281')){
 //		client.commands.get('mute').execute(message, args);
