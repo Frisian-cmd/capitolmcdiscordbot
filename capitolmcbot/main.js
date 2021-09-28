@@ -88,8 +88,8 @@ client.on('message', message =>{
 	//	client.commands.get('image').execute(client, message, args);
 //}	else if(command == 'afbeelding'){
 	//	client.commands.get('image').execute(client, message, args);
-//}	else if(command == 'vote'){
-	//	client.commands.get('vote').execute(message, args, Discord);
+}	else if(command == 'vote'){
+		client.commands.get('vote').execute(message, args, Discord);
 }	else if(command == 'help'){
 		client.commands.get('help').execute(message, args, Discord);
 }	else if(command == 'commands'){
